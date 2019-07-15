@@ -11,7 +11,7 @@ server.listen(9000);
 var html = fs.readFileSync('./temp1.html', 'utf8');
 
 var options = {
-    format: "A3",
+    format: "A4",
     orientation: "portrait",
     border: "10mm"
 };
